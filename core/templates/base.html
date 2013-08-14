@@ -1,0 +1,39 @@
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Happy+Monkey' rel='stylesheet' type='text/css'>
+	<!--[if IE 7]>
+		<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome-ie7.min.css">
+	<![endif]--> 
+	<title>URL.is</title>
+	<style>
+		body{
+			font-family: 'Happy Monkey', cursive;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<div>
+				<a class="brand">URL.is</a>
+			</div>
+			<ul>
+				<li><a href="#">My urls</a></li>
+				<li><a href="#">Add Url</a></li>
+				<li><a href="#" class="pull-right">Login</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div id="content">
+	{% block content %}
+	{% endblock content %}
+	</div>
+	<footer>URL.IS &copy; 2013 By Guido Preite, Marco Montanari</footer>
+	<!--scripts -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+</body>
+</html>

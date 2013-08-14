@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% load sitegate %}
+
+{% block page_contents %}
+    <div class="my_signin_block">
+        {% sitegate_signin_form %}
+    </div>
+    <div class="my_signup_block">
+        {% sitegate_signup_form %}
+    </div>
+{% endblock %}
